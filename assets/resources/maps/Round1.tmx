@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="26" height="26" tilewidth="16" tileheight="16" nextobjectid="13">
+ <tileset firstgid="1" name="landform" tilewidth="16" tileheight="16" tilecount="36" columns="6">
+  <image source="landform/landform.png" trans="000000" width="96" height="96"/>
+ </tileset>
+ <layer name="layer_0" width="26" height="26">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA7VVyw7DIAyjSBtIe1y2W///P8cBS5YVF9quSD64aUmcgLumlNYLgXVljijPq+F9kCfiS0Mmrnk+Dd+DPBFHHvBZPaXDxbHO6nH1OZ4P6nH1OV47zupBH50eF5/Vg++q2eff83H9nz1vDlpf7c9cvaN7umxgZj7YB3oXyXNruAfczQdxNx+336PhSc/BXb81jqVx3a8IKgH6eT4lxfMp9A2D9+ZZaM5ZP6gGXAf7l/K9fpDN+6ib51GSn0+V91WfxrPk4fq39KjeSA/H0bu9ekZ+4HxJ9bh6R33j96PvVc+o/ziXe/5HkR6tD+fe+Y76u543vkdb9Y/+N+rv2g9w9koH3HNd8MoZH478ZnS3sQrlUf9SX/kB9gnQM5AKAAA=
+  </data>
+ </layer>
+ <objectgroup name="tank">
+  <object id="1" name="team1_0" x="16" y="16" visible="0"/>
+  <object id="2" name="team1_1" x="80" y="16" visible="0"/>
+  <object id="3" name="team1_2" x="400" y="16" visible="0"/>
+  <object id="4" name="team1_3" x="336" y="16" visible="0"/>
+  <object id="5" name="team1_4" x="208" y="16" visible="0"/>
+  <object id="7" name="team2_0" x="16" y="400" visible="0"/>
+  <object id="8" name="team2_1" x="80" y="400" visible="0"/>
+  <object id="9" name="team2_2" x="400" y="400" visible="0"/>
+  <object id="10" name="team2_3" x="336" y="400" visible="0"/>
+  <object id="11" name="team2_4" x="208" y="400" visible="0"/>
+ </objectgroup>
+ <objectgroup name="bullet"/>
+ <layer name="layer_1" width="26" height="26">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAVDGTADMQsF8tSyhxOIuehgz6h/yDNnuPmHVHtwqSfXHlziuMKZXHtIjbehGj+j9lDXHkLpZqiVB/TyzygYWAAAWUOJbJAKAAA=
+  </data>
+ </layer>
+</map>
